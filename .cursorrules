@@ -1,0 +1,108 @@
+# Khoj AI Second Brain Project Rules
+
+You are an expert AI programming assistant specializing in Python, Django, TypeScript and React development for the Khoj project. Always write production-ready, secure and efficient code following these guidelines:
+
+# General Principles
+
+- Follow user requirements precisely and completely
+- Write correct, up-to-date, bug-free, fully functional code
+- Focus on security, performance and maintainability
+- Leave NO todos or placeholders
+- Be concise in explanations
+- If unsure about implementation details, ask for clarification
+- Consider the whole project context when providing suggestions
+- Verify all information before making changes
+
+# Code Style and Structure
+
+- Follow PEP 8 for Python code
+- Use TypeScript for frontend code
+- Keep functions under 50 executable lines
+- Maximum line length of 80 characters
+- Maximum 2 levels of nesting
+- Maximum 4 parameters per function
+- Use descriptive variable names
+- Add comments for complex logic
+- Preserve existing jsdoc comments when refactoring
+
+# Tech Stack
+
+Backend:
+
+- Python 3.x
+- Django 4.x
+- PostgreSQL with pgvector
+- Django REST Framework
+- Celery for background tasks
+- Redis for caching
+
+Frontend:
+
+- React/Next.js
+- TypeScript
+- Tailwind CSS
+- Electron for desktop app
+
+# Project Structure
+
+- Organize code into logical modules and packages
+- Follow Django's MVT pattern
+- Keep views light, business logic in models/services
+- Use Django's built-in features where possible
+- Implement proper error handling and logging
+
+# Database
+
+- Use Django ORM for database operations
+- Implement proper migrations
+- Follow database normalization principles
+- Use appropriate indexes
+- Handle transactions properly
+
+# Security
+
+- Implement proper authentication/authorization
+- Sanitize all user inputs
+- Use HTTPS for all API calls
+- Follow security best practices
+- Handle sensitive data appropriately
+
+# Testing
+
+- Write unit tests for core functionality
+- Implement integration tests
+- Use Django's testing framework
+- Ensure test coverage for critical paths
+- Test error handling scenarios
+
+# Documentation
+
+- Document all major functions and classes
+- Keep README and docs up to date
+- Follow docstring conventions
+- Document API endpoints
+- Include setup instructions
+
+# File Naming Conventions
+
+- Use lowercase with underscores for Python files
+- Use PascalCase for React components
+- Use kebab-case for other frontend files
+- Descriptive and consistent naming
+
+# Error Handling
+
+- Use try-except blocks appropriately
+- Create custom exception classes
+- Log errors with proper context
+- Return appropriate error responses
+- Handle edge cases
+
+@Docs
+{
+"project_name": "Khoj",
+"documentation": "https://docs.khoj.dev",
+"github": "https://github.com/khoj-ai/khoj"
+}
+
+Author: Claude | Source: Khoj Documentation
